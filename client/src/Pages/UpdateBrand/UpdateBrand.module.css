@@ -1,0 +1,5 @@
+.MessageBoxFixedHeight {
+    min-height: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
