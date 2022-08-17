@@ -2,11 +2,12 @@
 const logger = require('./src/utils/logger');
 const process = require('process');
 const app = require('./app');
-const email = require('./src/utils/mail');
+const emailer = require('./src/utils/emailer');
 //I did not set environment variable for PORT in Heroku, therefore it will be undefined
 const PORT = process.env.PORT || 5001; 
-
-
+//Send an email to the administrator. Notify the person that the server has started/restarted
+emailer.sendServerStartedNotification({recipientEmail:'yogibear@applebanana.com',
+emailSubject:'Internship Coordination System has started'});
 app.listen(PORT, async(err) => {
     if (err) return console.log(`Cannot Listen on PORT: ${PORT}`);
     console.log(`Server is Listening on: http://localhost:${PORT}/`);

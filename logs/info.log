@@ -1,0 +1,4 @@
+{"level":"info","message":"::1 /api/brands GET HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","timestamp":"2022-08-16T14:49:03.456Z"}
+{"level":"info","message":"::1 /api/brands GET HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","timestamp":"2022-08-16T14:50:59.267Z"}
+{"level":"info","message":"::1 /main.a8685eff8a83028fab1b.hot-update.json GET HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","timestamp":"2022-08-16T16:30:29.511Z"}
+{"level":"info","message":"::1 /api/brands/1 GET HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","timestamp":"2022-08-16T17:17:13.375Z"}
