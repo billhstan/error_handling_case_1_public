@@ -12,11 +12,11 @@ info.log
 # I sometimes use these common document file names to log down my discoveries
 # But since I am also having a seperate GitHub repository, I don't wish
 # to ignore this file (just in case I lose it on my own local computer) 
-# mynotes.docx
-# notes.docx
-# log.docx
-# logs.docx
-# reflections.docx
+mynotes.docx
+notes.docx
+log.docx
+ logs.docx
+reflections.docx
 
 # seeddata_#.JS and SQL files are usually used for prep tables and seeding data.
 # They are not required for deployment at cloud platforms.
