@@ -1,7 +1,27 @@
+# You need to review these file list from time to time
 node_modules
 .ENV
-mynotes.docx
-notes.docx
-log.docx
-logs.docx
-reflections.docx
+newrelic_agent.log
+
+# These three files were used for testing out winston and morgon
+# on FILEBASED logging concepts.
+combined.log
+error.log
+info.log
+
+# I sometimes use these common document file names to log down my discoveries
+# But since I am also having a seperate GitHub repository, I don't wish
+# to ignore this file (just in case I lose it on my own local computer) 
+# mynotes.docx
+# notes.docx
+# log.docx
+# logs.docx
+# reflections.docx
+
+# seeddata_#.JS and SQL files are usually used for prep tables and seeding data.
+# They are not required for deployment at cloud platforms.
+# For learning purpose, it is included because learners need to use
+# it to setup database records.
+# seeddata_1.js
+# setup_tables_postgres_error_handling_15082022.sql
+

@@ -3,8 +3,8 @@ const util = require('util');
 const chalk = require('chalk');
 let databaseConfig=null;
 let smtpAccountConfig=null;
-if ( process.env.PORT) {
-    console.log(chalk.magenta('config.js>>>PORT detected>>>Connect to Heroku DB'));
+if ( process.env.NODE_ENV!='development') {
+    console.log(chalk.magenta('config.js>>>NODE_ENV is not \'development\'>>>Connect to Heroku DB'));
      databaseConfig = {
         connectionString: process.env.DATABASE_URL_HEROKU,
         ssl: {
@@ -17,7 +17,7 @@ if ( process.env.PORT) {
         userPassword :process.env.SMTP_ADMIN_USER_PASSWORD,
      };
 }else{
-    console.log(chalk.magenta('config.js>>>PORT not detected>>>Developer commented out PORT')); 
+    console.log(chalk.magenta('config.js>>>NODE_ENV is \'development\'>>>Use local database'));
     console.log(chalk.magenta('config.js>>>Developer wants the backend use the localhost database.'));
     databaseConfig = {
         connectionString: process.env.DATABASE_URL_LOCAL
